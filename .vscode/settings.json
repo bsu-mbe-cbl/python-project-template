@@ -1,0 +1,61 @@
+{
+    "[abaqus]": {
+        "editor.foldingStrategy": "indentation"
+    },
+    "[git-commit]": {
+        "vim.textwidth": 72,
+        "editor.rulers": [
+            72,
+            50
+        ]
+    },
+    "[matlab]": {
+        "editor.defaultFormatter": "MathWorks.language-matlab"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit",
+            "source.fixAll.ruff": "explicit",
+            "source.convertImportFormat": "explicit"
+        },
+        "editor.formatOnSave": true,
+        "files.autoSave": "afterDelay",
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnType": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+    },
+    "cSpell.language": "en-US",
+    "cSpell.allowCompoundWords": true,
+    "jupyter.interactiveWindow.textEditor.magicCommandsAsComments": true,
+    "python.analysis.autoFormatStrings": true,
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": [],
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "editor.lineNumbers": "relative",
+    "notebook.lineNumbers": "on",
+    "vim.smartRelativeLine": true,
+    "vim.camelCaseMotion.enable": false,
+    "vim.disableExtension": true,
+    "files.associations": {
+        "*.dat": "abaqus",
+        "*.deter": "abaqus",
+        "*.m": "matlab",
+        "*.pb": "abaqus",
+        "*.pes": "abaqus",
+        "*.pyscro": "python",
+        "*.rc": "tcl",
+        "*.pysco": "python"
+    },
+}

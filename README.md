@@ -11,9 +11,9 @@
 
 # cblpython
 
-> Add a short description here!
+> A template python project repository for CBL users to fork.
 
-A longer description of your project goes here...
+This repo is set up for beginning a python data science project. You'll 
 
 ## Installation
 

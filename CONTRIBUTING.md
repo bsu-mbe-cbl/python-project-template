@@ -367,5 +367,5 @@ on [PyPI], the following steps can be used to release a new version for
 ```{todo} Please review and change the following definitions:
 ```
 
-[repository]: https://github.com/<USERNAME>/cblpython
-[issue tracker]: https://github.com/<USERNAME>/cblpython/issues
+[repository]: https://github.com/bsu-mbe-cbl/python-project-template
+[issue tracker]: https://github.com/bsu-mbe-cbl/python-project-template/issues

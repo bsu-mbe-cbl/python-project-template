@@ -1,4 +1,11 @@
 import sys
+import pyvista
+pyvista.set_jupyter_backend("client")  # Faster rendering for plots
+from cblpython.constants import (
+    MODULE_DIR as MODULE_DIR,
+    DATA_DIR as DATA_DIR,
+    MODEL_DIR as MODEL_DIR,
+)
 
 if sys.version_info[:2] >= (3, 8):
     # TODO: Import directly (no need for conditional) when `python_requires = >= 3.8`
