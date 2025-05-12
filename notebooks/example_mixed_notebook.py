@@ -48,7 +48,7 @@ def get_centroid_mesh(mesh: pv.DataSet) -> tuple[pv.PointSet, list[float]]:
 
 # %%
 
-mesh_dir = Path(cbl.DATA_DIR / "external" / "meshes")
+mesh_dir = Path(cbl.DATA_DIR / "example" / "meshes")
 knee_mesh = pv.MultiBlock()
 
 pl0 = pv.Plotter()
@@ -68,6 +68,7 @@ for mesh_file in mesh_dir.glob("*.inp"):
         render_points_as_spheres=True,
         point_size=10,
         color="red",
+        label=f"{mesh_file.stem}_centroid",
     )
     try:
         pl0.remove_scalar_bar()

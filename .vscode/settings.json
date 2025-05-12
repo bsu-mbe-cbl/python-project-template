@@ -58,4 +58,5 @@
         "*.rc": "tcl",
         "*.pysco": "python"
     },
+    "interactiveWindow.collapseCellInputCode": "never",
 }
